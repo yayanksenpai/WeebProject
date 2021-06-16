@@ -12,5 +12,11 @@ COPY ./sample_config.env ./config.env* /home/weebproject/
 # Setup Working Directory
 WORKDIR /home/weebproject/
 
+# Some useless stuff to install
+RUN pip3 install flask
+RUN pip3 install flask_restful
+
 # Finalization
-CMD ["python3","-m","userbot"]
+# CMD ["python3","-m","userbot"]
+# WIP, I don't know whether the docker base has bash or not, but we'll see
+CMD ["bash","start.sh"]

@@ -18,5 +18,5 @@ RUN pip3 install flask_restful
 
 # Finalization
 # CMD ["python3","-m","userbot"]
-# WIP, I don't know whether the docker base has bash or not, but we'll see
+# It turns out that python slim-buster is based on Debian, it supports bash, so let's use it
 CMD ["bash","start.sh"]

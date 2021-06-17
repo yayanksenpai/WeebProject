@@ -1,2 +1,2 @@
-python3 -m userbot &
-python3 clever.py
+python3 clever.py &
+python3 -m userbot

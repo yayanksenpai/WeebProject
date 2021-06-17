@@ -30,6 +30,14 @@ A modular Telegram Userbot running on Python3 with sqlalchemy database.
 based on [ProjectBish](https://github.com/adekmaulana/ProjectBish) Userbot
  
 ## Deploy
+### Clever Cloud
+
+This is a modified version of WeebProject that is deployable to Clever Cloud.
+
+You may just fork this or apply the commits I made to your own fork of WeebProject (recommended since you can just fetch the upstream for updating).
+
+The deployment process is pretty simple, connect your forked repo to your Clever Cloud account, add the variables as they are listed in app.json (add DATABASE_URL var too since it's not there), and deploy it.
+
 ### Heroku
 Click this button below to Deploy to Heroku
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/BianSepang/WeebProject/tree/master"> <img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Heroku"/></a></p>
